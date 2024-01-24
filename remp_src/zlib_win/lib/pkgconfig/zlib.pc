@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/home/soham/remp/zlib_win//lib
+sharedlibdir=/home/soham/remp/zlib_win//lib
+includedir=/home/soham/remp/zlib_win//include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.0.1-motley
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
