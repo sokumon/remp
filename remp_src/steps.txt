@@ -1,4 +1,0 @@
-g++ protocol.cpp -o proto -lcurl -lssl -lcrypto -lz
-
-CPPFLAGS="-I/usr/include/" LDFLAGS="-L/usr/lib/x86_64-linux-gnu/" ./configure --with-ssl
---disable-shared --enable-static
